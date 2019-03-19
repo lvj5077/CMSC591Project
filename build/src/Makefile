@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jin/Downloads/partVII
+CMAKE_SOURCE_DIR = /home/jin/Downloads/CMSC591Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jin/Downloads/partVII/build
+CMAKE_BINARY_DIR = /home/jin/Downloads/CMSC591Project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jin/Downloads/partVII/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jin/Downloads/partVII/build/CMakeFiles /home/jin/Downloads/partVII/build/src/CMakeFiles/progress.marks
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/Downloads/partVII/build/CMakeFiles 0
+	cd /home/jin/Downloads/CMSC591Project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jin/Downloads/CMSC591Project/build/CMakeFiles /home/jin/Downloads/CMSC591Project/build/src/CMakeFiles/progress.marks
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jin/Downloads/CMSC591Project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jin/Downloads/partVII/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jin/Downloads/CMSC591Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/visualOdometry.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/visualOdometry.dir/rule
 .PHONY : src/CMakeFiles/visualOdometry.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ visualOdometry: src/CMakeFiles/visualOdometry.dir/rule
 
 # fast build rule for target.
 visualOdometry/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/build
 .PHONY : visualOdometry/fast
 
 # Convenience name for target.
 src/CMakeFiles/joinPointCloud.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/joinPointCloud.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/joinPointCloud.dir/rule
 .PHONY : src/CMakeFiles/joinPointCloud.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ joinPointCloud: src/CMakeFiles/joinPointCloud.dir/rule
 
 # fast build rule for target.
 joinPointCloud/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/build
 .PHONY : joinPointCloud/fast
 
 # Convenience name for target.
 src/CMakeFiles/main.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ main: src/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 # Convenience name for target.
 src/CMakeFiles/slambase.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slambase.dir/rule
 .PHONY : src/CMakeFiles/slambase.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ slambase: src/CMakeFiles/slambase.dir/rule
 
 # fast build rule for target.
 slambase/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/build
 .PHONY : slambase/fast
 
 # Convenience name for target.
 src/CMakeFiles/detectFeatures.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/detectFeatures.dir/rule
 .PHONY : src/CMakeFiles/detectFeatures.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ detectFeatures: src/CMakeFiles/detectFeatures.dir/rule
 
 # fast build rule for target.
 detectFeatures/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/build
 .PHONY : detectFeatures/fast
 
 # Convenience name for target.
 src/CMakeFiles/slam.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/slam.dir/rule
 .PHONY : src/CMakeFiles/slam.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ slam: src/CMakeFiles/slam.dir/rule
 
 # fast build rule for target.
 slam/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/build
 .PHONY : slam/fast
 
 # Convenience name for target.
 src/CMakeFiles/generate_pointcloud.dir/rule:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/generate_pointcloud.dir/rule
 .PHONY : src/CMakeFiles/generate_pointcloud.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ generate_pointcloud: src/CMakeFiles/generate_pointcloud.dir/rule
 
 # fast build rule for target.
 generate_pointcloud/fast:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/build
 .PHONY : generate_pointcloud/fast
 
 detectFeatures.o: detectFeatures.cpp.o
@@ -221,7 +221,7 @@ detectFeatures.o: detectFeatures.cpp.o
 
 # target to build an object file
 detectFeatures.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.o
 .PHONY : detectFeatures.cpp.o
 
 detectFeatures.i: detectFeatures.cpp.i
@@ -230,7 +230,7 @@ detectFeatures.i: detectFeatures.cpp.i
 
 # target to preprocess a source file
 detectFeatures.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.i
 .PHONY : detectFeatures.cpp.i
 
 detectFeatures.s: detectFeatures.cpp.s
@@ -239,7 +239,7 @@ detectFeatures.s: detectFeatures.cpp.s
 
 # target to generate assembly for a file
 detectFeatures.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/detectFeatures.dir/build.make src/CMakeFiles/detectFeatures.dir/detectFeatures.cpp.s
 .PHONY : detectFeatures.cpp.s
 
 generatePointCloud.o: generatePointCloud.cpp.o
@@ -248,7 +248,7 @@ generatePointCloud.o: generatePointCloud.cpp.o
 
 # target to build an object file
 generatePointCloud.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.o
 .PHONY : generatePointCloud.cpp.o
 
 generatePointCloud.i: generatePointCloud.cpp.i
@@ -257,7 +257,7 @@ generatePointCloud.i: generatePointCloud.cpp.i
 
 # target to preprocess a source file
 generatePointCloud.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.i
 .PHONY : generatePointCloud.cpp.i
 
 generatePointCloud.s: generatePointCloud.cpp.s
@@ -266,7 +266,7 @@ generatePointCloud.s: generatePointCloud.cpp.s
 
 # target to generate assembly for a file
 generatePointCloud.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/generate_pointcloud.dir/build.make src/CMakeFiles/generate_pointcloud.dir/generatePointCloud.cpp.s
 .PHONY : generatePointCloud.cpp.s
 
 joinPointCloud.o: joinPointCloud.cpp.o
@@ -275,7 +275,7 @@ joinPointCloud.o: joinPointCloud.cpp.o
 
 # target to build an object file
 joinPointCloud.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.o
 .PHONY : joinPointCloud.cpp.o
 
 joinPointCloud.i: joinPointCloud.cpp.i
@@ -284,7 +284,7 @@ joinPointCloud.i: joinPointCloud.cpp.i
 
 # target to preprocess a source file
 joinPointCloud.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.i
 .PHONY : joinPointCloud.cpp.i
 
 joinPointCloud.s: joinPointCloud.cpp.s
@@ -293,7 +293,7 @@ joinPointCloud.s: joinPointCloud.cpp.s
 
 # target to generate assembly for a file
 joinPointCloud.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/joinPointCloud.dir/build.make src/CMakeFiles/joinPointCloud.dir/joinPointCloud.cpp.s
 .PHONY : joinPointCloud.cpp.s
 
 main.o: main.cpp.o
@@ -302,7 +302,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -311,7 +311,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -320,7 +320,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 slam.o: slam.cpp.o
@@ -329,7 +329,7 @@ slam.o: slam.cpp.o
 
 # target to build an object file
 slam.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.o
 .PHONY : slam.cpp.o
 
 slam.i: slam.cpp.i
@@ -338,7 +338,7 @@ slam.i: slam.cpp.i
 
 # target to preprocess a source file
 slam.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.i
 .PHONY : slam.cpp.i
 
 slam.s: slam.cpp.s
@@ -347,7 +347,7 @@ slam.s: slam.cpp.s
 
 # target to generate assembly for a file
 slam.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slam.dir/build.make src/CMakeFiles/slam.dir/slam.cpp.s
 .PHONY : slam.cpp.s
 
 slamBase.o: slamBase.cpp.o
@@ -356,7 +356,7 @@ slamBase.o: slamBase.cpp.o
 
 # target to build an object file
 slamBase.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.o
 .PHONY : slamBase.cpp.o
 
 slamBase.i: slamBase.cpp.i
@@ -365,7 +365,7 @@ slamBase.i: slamBase.cpp.i
 
 # target to preprocess a source file
 slamBase.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.i
 .PHONY : slamBase.cpp.i
 
 slamBase.s: slamBase.cpp.s
@@ -374,7 +374,7 @@ slamBase.s: slamBase.cpp.s
 
 # target to generate assembly for a file
 slamBase.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/slambase.dir/build.make src/CMakeFiles/slambase.dir/slamBase.cpp.s
 .PHONY : slamBase.cpp.s
 
 visualOdometry.o: visualOdometry.cpp.o
@@ -383,7 +383,7 @@ visualOdometry.o: visualOdometry.cpp.o
 
 # target to build an object file
 visualOdometry.cpp.o:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.o
 .PHONY : visualOdometry.cpp.o
 
 visualOdometry.i: visualOdometry.cpp.i
@@ -392,7 +392,7 @@ visualOdometry.i: visualOdometry.cpp.i
 
 # target to preprocess a source file
 visualOdometry.cpp.i:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.i
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.i
 .PHONY : visualOdometry.cpp.i
 
 visualOdometry.s: visualOdometry.cpp.s
@@ -401,7 +401,7 @@ visualOdometry.s: visualOdometry.cpp.s
 
 # target to generate assembly for a file
 visualOdometry.cpp.s:
-	cd /home/jin/Downloads/partVII/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.s
+	cd /home/jin/Downloads/CMSC591Project/build && $(MAKE) -f src/CMakeFiles/visualOdometry.dir/build.make src/CMakeFiles/visualOdometry.dir/visualOdometry.cpp.s
 .PHONY : visualOdometry.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jin/Downloads/partVII/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jin/Downloads/CMSC591Project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

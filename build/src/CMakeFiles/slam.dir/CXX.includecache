@@ -42,7 +42,7 @@ iostream
 string
 -
 
-/home/jin/Downloads/partVII/src/slam.cpp
+/home/jin/Downloads/CMSC591Project/src/slam.cpp
 iostream
 -
 fstream
@@ -50,7 +50,7 @@ fstream
 sstream
 -
 slamBase.h
-/home/jin/Downloads/partVII/src/slamBase.h
+/home/jin/Downloads/CMSC591Project/src/slamBase.h
 pcl/filters/voxel_grid.h
 -
 pcl/filters/passthrough.h

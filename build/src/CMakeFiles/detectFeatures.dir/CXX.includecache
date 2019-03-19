@@ -42,11 +42,13 @@ iostream
 string
 -
 
-/home/jin/Downloads/partVII/src/detectFeatures.cpp
+/home/jin/Downloads/CMSC591Project/src/detectFeatures.cpp
+algorithm
+-
 iostream
 -
 slamBase.h
-/home/jin/Downloads/partVII/src/slamBase.h
+/home/jin/Downloads/CMSC591Project/src/slamBase.h
 opencv2/features2d/features2d.hpp
 -
 opencv2/calib3d/calib3d.hpp

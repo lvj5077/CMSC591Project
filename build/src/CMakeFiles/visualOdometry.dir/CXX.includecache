@@ -42,7 +42,7 @@ iostream
 string
 -
 
-/home/jin/Downloads/partVII/src/visualOdometry.cpp
+/home/jin/Downloads/CMSC591Project/src/visualOdometry.cpp
 iostream
 -
 fstream
@@ -50,7 +50,7 @@ fstream
 sstream
 -
 slamBase.h
-/home/jin/Downloads/partVII/src/slamBase.h
+/home/jin/Downloads/CMSC591Project/src/slamBase.h
 
 /home/jin/Third_Party_Packages/opencv-3.4.5/build/cv_cpu_config.h
 

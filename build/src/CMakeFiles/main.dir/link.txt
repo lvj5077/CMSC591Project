@@ -1,1 +1,1 @@
-g++  -O3 -std=c++11  -O3 -DNDEBUG    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/jin/Downloads/partVII/lib 
+g++  -O3 -std=c++11  -O3 -DNDEBUG    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o ../../bin/main  -L/home/jin/Downloads/CMSC591Project/lib 

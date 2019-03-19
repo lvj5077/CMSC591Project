@@ -1,4 +1,4 @@
-# Install script for directory: /home/jin/Downloads/partVII/src
+# Install script for directory: /home/jin/Downloads/CMSC591Project/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

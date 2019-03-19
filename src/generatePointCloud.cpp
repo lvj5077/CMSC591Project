@@ -39,10 +39,11 @@ int main( int argc, char** argv )
     string inFileName;
 
 
-    inFileName = "/home/jin/Downloads/partVII/data/test/frm_0089.dat";
+    inFileName = "/home/jin/Downloads/CMSC591Project/data/test/frm_0089.dat";
     SR4kFRAME f = readSRFrame(inFileName) ; 
 
-    cv::Mat rgb =  f.rgb;
+    cv::Mat rgb =  cv::imread( "/home/jin/Dropbox/test.png" );
+
     cv::imwrite( "./data/dat2img.png", rgb );
 
     cv::Mat depth =  f.depthXYZ;
@@ -86,9 +87,9 @@ int main( int argc, char** argv )
             // cout << p.z<<endl;
             // // 从rgb图像中获取它的颜色
             // // rgb是三通道的BGR格式图，所以按下面的顺序获取颜色
-            p.b = 0;
-            p.g = 0;
-            p.r = 255;
+            p.b = rgb.ptr<uchar>(m)[n*3];
+            p.g = rgb.ptr<uchar>(m)[n*3+1];
+            p.r = rgb.ptr<uchar>(m)[n*3+2];
 
             // 把p加入到点云中
             cloud->points.push_back( p );

@@ -42,11 +42,11 @@ iostream
 string
 -
 
-/home/jin/Downloads/partVII/src/joinPointCloud.cpp
+/home/jin/Downloads/CMSC591Project/src/joinPointCloud.cpp
 iostream
 -
 slamBase.h
-/home/jin/Downloads/partVII/src/slamBase.h
+/home/jin/Downloads/CMSC591Project/src/slamBase.h
 opencv2/core/eigen.hpp
 -
 pcl/common/transforms.h
