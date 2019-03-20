@@ -73,7 +73,7 @@ int main( int argc, char** argv )
     }
 
     cout<<"min dis = "<<minDis<<endl;
-    minDis = max(20,minDis);
+    minDis = max(5,minDis);
     for ( size_t i=0; i<matches.size(); i++ )
     {
         if (matches[i].distance < 5*minDis)
