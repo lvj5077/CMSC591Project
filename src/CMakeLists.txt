@@ -2,12 +2,12 @@
 ADD_EXECUTABLE( main main.cpp )
 
 # 增加PCL库的依赖
-SET("PCL_DIR" "/home/jin/Third_Party_Packages/pcl-pcl-1.8.1/build")
+SET("PCL_DIR" "/Users/lingqiujin/Third_Party_Packages/pcl-pcl-1.9.1/build")
 FIND_PACKAGE( PCL REQUIRED COMPONENTS common io visualization filters )
 list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4") # use this in Ubuntu 16.04
 
 # 增加opencv的依赖
-SET("OpenCV_DIR" "/home/jin/Third_Party_Packages/opencv-3.4.5/build")
+SET("OpenCV_DIR" "/Users/lingqiujin/Third_Party_Packages/opencv-3.4.5/build")
 FIND_PACKAGE( OpenCV 3.1 REQUIRED )
 
 # 添加头文件和库文件
